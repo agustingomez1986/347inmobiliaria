@@ -1,0 +1,18 @@
+.burgerMenuContainer {
+  align-items: center;
+  background-color: var(--color-coral);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  @media (min-width: 500px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.burgerMenuItem {
+  font-size: 18px;
+  margin: 7px;
+  text-transform: uppercase;
+}

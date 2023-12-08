@@ -1,0 +1,38 @@
+.contact-container {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.contact-title {
+  align-items: center;
+  background-image: url('../../assets/icons/contact-us-1908762__340.webp');
+  background-position: center;
+  background-size: cover;
+  color: #222222;
+  display: flex;
+  font-size: 1.5em;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+  
+  @media (min-width: 425px) {
+    font-size: 1.8em;
+  }
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 95%;
+
+  @media (min-width: 768px) {
+    width: 75%;
+  }
+}
+
+.contact-legend {
+  font-family: 'Open sans', serif;
+  margin-bottom: 32px;
+}
+

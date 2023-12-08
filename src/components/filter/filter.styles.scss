@@ -1,0 +1,25 @@
+.filter-title-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-title {
+  font-size: 25px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 5vw 20px;
+
+  @media (min-width: 425px) {
+    flex-direction: row;
+  }
+}
+
+.filter-item {
+  margin: 10px 0;
+}

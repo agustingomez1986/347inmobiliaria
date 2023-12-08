@@ -1,0 +1,21 @@
+.selectedEstateContainer {
+  margin: 15px auto;
+  width: 95vw;
+
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}

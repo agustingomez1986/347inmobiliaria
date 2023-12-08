@@ -1,0 +1,125 @@
+.contact-form-box, .contact-textarea-box {
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: 560px;
+  }
+}
+
+.contact-input, .contact-textarea {
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-radius: 4px;
+  color: #464646;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 32px;
+  padding: 20px 10px 10px;
+  width: 100%;
+}
+.contact-input {
+  height: 50px;
+}
+.contact-textarea {
+  height: 82px;
+}
+
+.contact-input:focus, .contact-textarea:focus {
+  outline: none;
+}
+
+.contact-input::placeholder, .contact-textarea::placeholder {
+  visibility: hidden;
+}
+
+.contact-label {
+  color: #a2a2a2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  left: 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 20px;
+  transition: all 0.25s;
+}
+
+.contact-input:not(:placeholder-shown) + .contact-label,
+.contact-input:focus + .contact-label,
+.contact-textarea:not(:placeholder-shown) + .contact-label,
+.contact-textarea:focus + .contact-label {
+  font-size: 12px;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.contact-input-error, .contact-textarea-error {
+  display: none;
+}
+
+.contact-form-box--warning .contact-input, .contact-textarea-box--warning .contact-textarea{
+  border: 1px solid red;
+  border-radius: 7px;
+  margin-bottom: 0px;
+}
+
+.contact-form-box--warning .contact-input-error, .contact-textarea-box--warning .contact-textarea-error {
+  color: red;
+  display: block;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+.contact-form-box--warning .contact-label, .contact-textarea-box--warning .contact-label {
+  color: red;
+}
+
+.contact-button {
+  background-color: var(--color-coral);
+  border: none;
+  color: var(--color-gris);
+  font-size: 20px;
+  line-height: 22px;
+  padding: 12px;
+
+  @media (min-width: 768px) {
+    width: 560px;
+  }
+}
+
+.contact-button:active{
+  animation: dissolve 300ms;
+}
+
+.contact-sent-message-ty-container {
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255,255,255,0.1);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.contact-sent-message-ty {
+  align-items: center;
+  background-color: var(--color-gris);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 90vw;
+
+  @media (min-width: 425px) {
+    height: 100px;
+    width: 300px;
+  }
+}

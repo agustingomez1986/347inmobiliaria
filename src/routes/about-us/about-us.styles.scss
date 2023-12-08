@@ -1,0 +1,90 @@
+.aboutUs-container {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.aboutUs-title {
+  align-items: center;
+  background-image: url('../../assets/img/banner-aboutus.jpg');
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  font-size: 1.5em;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+
+  @media (min-width: 425px) {
+    font-size: 1.8em;
+  }
+}
+
+.aboutUs-comment {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.7em;
+  margin: 25px 2.5vw;
+  text-align: center;
+
+  @media (min-width: 425px) {
+    font-size: 2em;
+    margin: 45px;
+  }
+}
+
+.aboutUs-subTitle {
+  font-size: 1.2em;
+  margin: 25px;
+  text-align: center;
+
+  @media (min-width: 425px) {
+    font-size: 1.5em;
+  }
+}
+
+.aboutUs-imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutUs-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 150px;
+  margin: 10px;
+  width: 150px;
+
+  @media (min-width: 425px) {
+    height: 220px;
+    width: 220px;
+  }
+}
+
+.aboutUs-image--Maite {
+  background-image: url("../../assets/img/maite.jpg");
+}
+
+.aboutUs-image--Grau {
+  background-image: url("../../assets/img/grau.jpg");
+}
+
+.aboutUs-text {
+  font-family: 'Open Sans', serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 30px auto;
+  width: 95%;
+
+  @media (min-width: 425px) {
+    font-size: 0.8em;
+    width: 90%;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 0.8em;
+    width: 75%;
+  }
+}

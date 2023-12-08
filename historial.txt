@@ -1,0 +1,20 @@
+npm install ftp
+npm i fs
+npm i assert
+npm i https-browserify
+npm i os
+npm i os-browserify
+npm i react-app-rewired
+npm i stream-browserify
+npm i stream-http
+npm i buffer
+
+creé config-overrides.js
+
+modifiqué el packages.js
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
