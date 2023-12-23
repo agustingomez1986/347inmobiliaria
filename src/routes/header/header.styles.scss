@@ -1,0 +1,29 @@
+
+
+
+// .logoHomeNotScrolled {
+// }
+
+// .logoHomeScrolled{
+// }
+
+// .logoWordNotScrolled {
+// }
+
+// .logoWordScrolled{
+// }
+.linkDiv {
+  background-color: var(--color-gris);
+
+  @media (min-width: 768px) {
+    left: -40px;
+    padding: 10px 20px 10px 40px;
+    position: relative;
+    transform: skew(-40deg);
+    width: 450px;
+  }
+}
+
+.nav-arrow {
+cursor: pointer;
+}

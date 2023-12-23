@@ -1,0 +1,18 @@
+.navLinks {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50vw;  
+}
+
+.link {
+  font-size: 20px;
+  margin-right: 3px;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+.link:hover {
+  color: var(--color-esmeralda);
+}

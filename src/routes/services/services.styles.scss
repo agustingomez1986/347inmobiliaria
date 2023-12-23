@@ -1,0 +1,40 @@
+.servicesTitle {
+  align-items: center;
+  background-image: url('../../assets/img/2.jpeg');
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  font-size: 35px;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+
+  @media (min-width: 425px) {
+    font-size: 45px;
+  }
+}
+
+.serviceContainer {
+  margin: 40px auto;
+  width: 80%;
+}
+
+.serviceTitleContainer {
+  background-color: var(--color-esmeralda);
+  transform: skew(-40deg);
+}
+
+.serviceTitle {
+  color: #333333;
+  margin: 50px 0 20px;
+  transform: skew(40deg);
+}
+
+.serviceDescription {
+  font-size: 17px;
+
+  @media (min-width: 425px) {
+    font-size: 18px;
+  }
+}

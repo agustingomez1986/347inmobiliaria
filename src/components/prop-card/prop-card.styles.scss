@@ -1,0 +1,62 @@
+.estate-card-container {
+  box-shadow: 5px 5px 5px -5px black;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+
+  @media (min-width: 425px) {
+    width: 290px;
+  }
+
+  @media (min-width: 768px) {
+    width: 350px;
+  }
+}
+
+.card-prop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-image {
+  height: 250px;
+  width: 250px;
+
+  @media (min-width: 425px) {
+    height: 230px;
+    width: 230px;
+  }
+
+  @media (min-width: 768px) {
+    height: 330px;
+    width: 330px;
+  }
+}
+
+.card-name {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 25px;
+}
+
+.card-price {
+  font-size: 20px;
+}
+
+.card-surface-container {
+  display: flex;
+}
+
+.card-surface-items {
+  align-items: flex-end;
+  display: flex;
+  gap: 1px;
+  margin-right: 15px;
+}
+.card-surface-items:last-child {
+  margin-right: 0;
+}
+
+.card-surface-icons {
+  height: 20px;
+}
