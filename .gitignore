@@ -19,7 +19,7 @@
 .env.test.local
 .env.production.local
 /archivosdisenio
-/public/img
+/public/img/
 
 # log files
 npm-debug.log*
